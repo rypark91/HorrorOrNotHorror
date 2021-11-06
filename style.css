@@ -1,0 +1,109 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    
+}
+body{
+    background-color: black;
+}
+h3{
+    font-size: 23px;
+    animation-duration: 15s;
+    animation-name: slideup;
+    text-align: center;
+}
+#enemy{
+    width: 99%;
+    margin: 0 auto;
+    left: 500px;
+}
+#enemyImage{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    display: block;
+    
+}
+#intro{
+    width: 50%;
+    min-width: 450px;
+    margin: 0 auto;
+    text-align: right;
+}
+#skip{
+    position: sticky;
+    align-items: right;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 25px;
+    transform: translateY(100px);
+    margin-right: 20px;
+}
+#skip:hover{
+    color: black;
+    background-color: white;
+}
+
+@keyframes slideup{
+    from{
+        transform:translateY(100px);
+        opacity: 0;
+    }
+    to{
+        transform:translateY(0px);
+        opacity: 1;
+    }
+}
+#copyright{
+    display: none;
+    text-align: center;
+}
+
+#quizContainer {
+    margin: 30px auto;
+    width: 60%;
+    text-align: center;
+    border: white solid 1px;
+    padding-bottom: 20px;
+}
+#choices{
+    text-align: center;
+}
+#questionBox{
+    margin: 10px 0;
+}
+
+
+
+.checkAnswer{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+    height: 4em;
+    border-radius: 2px;
+    font-size: large;
+    font-weight: bold;
+}
+.checkAnswer:hover{
+    background-color: white;
+    color: black;
+}
+.checkAnswer:active{
+    background-color: black;
+    color: red;
+}
+
+
+

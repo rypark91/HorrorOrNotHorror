@@ -23,7 +23,7 @@ h3{
     left: 500px;
 }
 #enemyImage{
-    width: 300px;
+    width: 80%;
     height: 400px;
     text-align: center;
     margin: 0 auto;
@@ -33,7 +33,7 @@ h3{
 }
 #intro{
     width: 50%;
-    min-width: 450px;
+    min-width: 350px;
     margin: 0 auto;
     text-align: right;
 }
@@ -104,6 +104,10 @@ h3{
     background-color: black;
     color: red;
 }
-
+@media only screen and (min-width: 360px) and (max-width: 596px){
+    #quizContainer {
+        width: 80%;
+    }
+}
 
 
